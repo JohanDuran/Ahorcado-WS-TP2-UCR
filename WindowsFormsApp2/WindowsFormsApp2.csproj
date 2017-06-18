@@ -71,7 +71,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="Connected Services\Juego\ECCI_Juego.wsdl" />
+    <None Include="Connected Services\Juego\ECCI_HolaMundo.wsdl" />
     <None Include="Connected Services\Juego\WindowsFormsApp2.Juego.saludeResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
