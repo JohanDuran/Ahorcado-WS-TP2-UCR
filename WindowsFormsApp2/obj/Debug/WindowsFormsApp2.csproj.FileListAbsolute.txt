@@ -1,0 +1,9 @@
+c:\users\johan duran cerdas\Codigo\Visual Studio 2017\Projects\Gato-TP2-Web-UCR\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+c:\users\johan duran cerdas\Codigo\Visual Studio 2017\Projects\Gato-TP2-Web-UCR\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+c:\users\johan duran cerdas\Codigo\Visual Studio 2017\Projects\Gato-TP2-Web-UCR\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+c:\users\johan duran cerdas\Codigo\Visual Studio 2017\Projects\Gato-TP2-Web-UCR\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csprojResolveAssemblyReference.cache
+c:\users\johan duran cerdas\Codigo\Visual Studio 2017\Projects\Gato-TP2-Web-UCR\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+c:\users\johan duran cerdas\Codigo\Visual Studio 2017\Projects\Gato-TP2-Web-UCR\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.Cache
+c:\users\johan duran cerdas\Codigo\Visual Studio 2017\Projects\Gato-TP2-Web-UCR\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+c:\users\johan duran cerdas\Codigo\Visual Studio 2017\Projects\Gato-TP2-Web-UCR\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+c:\users\johan duran cerdas\Codigo\Visual Studio 2017\Projects\Gato-TP2-Web-UCR\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Gato.resources
