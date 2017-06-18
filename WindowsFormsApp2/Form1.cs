@@ -17,5 +17,11 @@ namespace WindowsFormsApp2
             InitializeComponent();
         }
 
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+            Juego.ECCI_JuegoPortClient jc = new Juego.ECCI_JuegoPortClient();
+            MessageBox.Show(jc.salude("Juan"));          
+            MessageBox.Show(jc.ultimoSaludo());          
+        }
     }
 }

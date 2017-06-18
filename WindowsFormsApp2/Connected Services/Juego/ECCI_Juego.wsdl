@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="urn:ECCI_Juego" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns="http://schemas.xmlsoap.org/wsdl/" name="ECCI_Juego" targetNamespace="urn:ECCI_Juego" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types xmlns="http://schemas.xmlsoap.org/wsdl/">
+    <xsd:schema targetNamespace="urn:ECCI_Juego">
+      <xsd:element name="salude">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="nombre" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="saludeReturn">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="saludeResult" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="servidorEstampillaDeTiempo">
+        <xsd:complexType />
+      </xsd:element>
+      <xsd:element name="servidorEstampillaDeTiempoReturn">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="servidorEstampillaDeTiempoResult" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ultimoSaludo">
+        <xsd:complexType />
+      </xsd:element>
+      <xsd:element name="ultimoSaludoReturn">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="ultimoSaludoResult" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="saludeRequest">
+    <wsdl:part name="parameters" element="tns:salude" />
+  </wsdl:message>
+  <wsdl:message name="saludeResponse">
+    <wsdl:part name="parameters" element="tns:saludeReturn" />
+  </wsdl:message>
+  <wsdl:message name="servidorEstampillaDeTiempoRequest">
+    <wsdl:part name="parameters" element="tns:servidorEstampillaDeTiempo" />
+  </wsdl:message>
+  <wsdl:message name="servidorEstampillaDeTiempoResponse">
+    <wsdl:part name="parameters" element="tns:servidorEstampillaDeTiempoReturn" />
+  </wsdl:message>
+  <wsdl:message name="ultimoSaludoRequest">
+    <wsdl:part name="parameters" element="tns:ultimoSaludo" />
+  </wsdl:message>
+  <wsdl:message name="ultimoSaludoResponse">
+    <wsdl:part name="parameters" element="tns:ultimoSaludoReturn" />
+  </wsdl:message>
+  <wsdl:portType name="ECCI_JuegoPort">
+    <wsdl:operation name="salude">
+      <wsdl:input message="tns:saludeRequest" />
+      <wsdl:output message="tns:saludeResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="servidorEstampillaDeTiempo">
+      <wsdl:input message="tns:servidorEstampillaDeTiempoRequest" />
+      <wsdl:output message="tns:servidorEstampillaDeTiempoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ultimoSaludo">
+      <wsdl:input message="tns:ultimoSaludoRequest" />
+      <wsdl:output message="tns:ultimoSaludoResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ECCI_JuegoBinding" type="tns:ECCI_JuegoPort">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="salude">
+      <soap:operation soapAction="urn:ECCI_Juego#Juego#salude" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="servidorEstampillaDeTiempo">
+      <soap:operation soapAction="urn:ECCI_Juego#Juego#servidorEstampillaDeTiempo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ultimoSaludo">
+      <soap:operation soapAction="urn:ECCI_Juego#Juego#ultimoSaludo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ECCI_Juego">
+    <documentation />
+    <wsdl:port name="ECCI_JuegoPort" binding="tns:ECCI_JuegoBinding">
+      <soap:address location="http://titanic.ecci.ucr.ac.cr:80/~eb42319/TP2/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

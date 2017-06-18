@@ -56,7 +56,7 @@
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 125F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 128F));
             this.tableLayoutPanel1.Controls.Add(this.btn6, 2, 1);
             this.tableLayoutPanel1.Controls.Add(this.btn4, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.btn3, 2, 0);
@@ -79,7 +79,7 @@
             // btn6
             // 
             this.btn6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 27.75F);
-            this.btn6.Location = new System.Drawing.Point(276, 103);
+            this.btn6.Location = new System.Drawing.Point(272, 103);
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(119, 91);
             this.btn6.TabIndex = 5;
@@ -90,14 +90,14 @@
             this.btn4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 27.75F);
             this.btn4.Location = new System.Drawing.Point(6, 103);
             this.btn4.Name = "btn4";
-            this.btn4.Size = new System.Drawing.Size(126, 91);
+            this.btn4.Size = new System.Drawing.Size(124, 91);
             this.btn4.TabIndex = 3;
             this.btn4.UseVisualStyleBackColor = true;
             // 
             // btn3
             // 
             this.btn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 27.75F);
-            this.btn3.Location = new System.Drawing.Point(276, 6);
+            this.btn3.Location = new System.Drawing.Point(272, 6);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(119, 88);
             this.btn3.TabIndex = 2;
@@ -106,16 +106,16 @@
             // btn2
             // 
             this.btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn2.Location = new System.Drawing.Point(141, 6);
+            this.btn2.Location = new System.Drawing.Point(139, 6);
             this.btn2.Name = "btn2";
-            this.btn2.Size = new System.Drawing.Size(126, 88);
+            this.btn2.Size = new System.Drawing.Size(124, 88);
             this.btn2.TabIndex = 1;
             this.btn2.UseVisualStyleBackColor = true;
             // 
             // btn9
             // 
             this.btn9.Font = new System.Drawing.Font("Arial Rounded MT Bold", 27.75F);
-            this.btn9.Location = new System.Drawing.Point(276, 203);
+            this.btn9.Location = new System.Drawing.Point(272, 203);
             this.btn9.Name = "btn9";
             this.btn9.Size = new System.Drawing.Size(119, 90);
             this.btn9.TabIndex = 8;
@@ -126,7 +126,7 @@
             this.bnt1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bnt1.Location = new System.Drawing.Point(6, 6);
             this.bnt1.Name = "bnt1";
-            this.bnt1.Size = new System.Drawing.Size(126, 88);
+            this.bnt1.Size = new System.Drawing.Size(124, 88);
             this.bnt1.TabIndex = 0;
             this.bnt1.UseVisualStyleBackColor = true;
             // 
@@ -135,25 +135,25 @@
             this.btn7.Font = new System.Drawing.Font("Arial Rounded MT Bold", 27.75F);
             this.btn7.Location = new System.Drawing.Point(6, 203);
             this.btn7.Name = "btn7";
-            this.btn7.Size = new System.Drawing.Size(126, 90);
+            this.btn7.Size = new System.Drawing.Size(124, 90);
             this.btn7.TabIndex = 6;
             this.btn7.UseVisualStyleBackColor = true;
             // 
             // btn8
             // 
             this.btn8.Font = new System.Drawing.Font("Arial Rounded MT Bold", 27.75F);
-            this.btn8.Location = new System.Drawing.Point(141, 203);
+            this.btn8.Location = new System.Drawing.Point(139, 203);
             this.btn8.Name = "btn8";
-            this.btn8.Size = new System.Drawing.Size(126, 90);
+            this.btn8.Size = new System.Drawing.Size(124, 90);
             this.btn8.TabIndex = 7;
             this.btn8.UseVisualStyleBackColor = true;
             // 
             // btn5
             // 
             this.btn5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 27.75F);
-            this.btn5.Location = new System.Drawing.Point(141, 103);
+            this.btn5.Location = new System.Drawing.Point(139, 103);
             this.btn5.Name = "btn5";
-            this.btn5.Size = new System.Drawing.Size(126, 91);
+            this.btn5.Size = new System.Drawing.Size(124, 91);
             this.btn5.TabIndex = 4;
             this.btn5.UseVisualStyleBackColor = true;
             // 
@@ -209,6 +209,7 @@
             this.btnStart.Size = new System.Drawing.Size(197, 82);
             this.btnStart.TabIndex = 5;
             this.btnStart.UseVisualStyleBackColor = false;
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
             // button2
             // 
