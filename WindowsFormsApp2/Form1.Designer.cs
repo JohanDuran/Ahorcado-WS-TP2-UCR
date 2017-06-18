@@ -73,89 +73,98 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.9434F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 95F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(401, 299);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(414, 299);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // btn6
             // 
             this.btn6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 27.75F);
-            this.btn6.Location = new System.Drawing.Point(272, 103);
+            this.btn6.Location = new System.Drawing.Point(286, 103);
             this.btn6.Name = "btn6";
-            this.btn6.Size = new System.Drawing.Size(119, 91);
+            this.btn6.Size = new System.Drawing.Size(117, 91);
             this.btn6.TabIndex = 5;
             this.btn6.UseVisualStyleBackColor = true;
+            this.btn6.Click += new System.EventHandler(this.btn6_Click);
             // 
             // btn4
             // 
             this.btn4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 27.75F);
             this.btn4.Location = new System.Drawing.Point(6, 103);
             this.btn4.Name = "btn4";
-            this.btn4.Size = new System.Drawing.Size(124, 91);
+            this.btn4.Size = new System.Drawing.Size(125, 91);
             this.btn4.TabIndex = 3;
             this.btn4.UseVisualStyleBackColor = true;
+            this.btn4.Click += new System.EventHandler(this.btn4_Click);
             // 
             // btn3
             // 
             this.btn3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 27.75F);
-            this.btn3.Location = new System.Drawing.Point(272, 6);
+            this.btn3.Location = new System.Drawing.Point(286, 6);
             this.btn3.Name = "btn3";
-            this.btn3.Size = new System.Drawing.Size(119, 88);
+            this.btn3.Size = new System.Drawing.Size(117, 88);
             this.btn3.TabIndex = 2;
             this.btn3.UseVisualStyleBackColor = true;
+            this.btn3.Click += new System.EventHandler(this.btn3_Click);
             // 
             // btn2
             // 
             this.btn2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn2.Location = new System.Drawing.Point(139, 6);
+            this.btn2.Location = new System.Drawing.Point(146, 6);
             this.btn2.Name = "btn2";
-            this.btn2.Size = new System.Drawing.Size(124, 88);
+            this.btn2.Size = new System.Drawing.Size(125, 88);
             this.btn2.TabIndex = 1;
             this.btn2.UseVisualStyleBackColor = true;
+            this.btn2.Click += new System.EventHandler(this.btn2_Click);
             // 
             // btn9
             // 
             this.btn9.Font = new System.Drawing.Font("Arial Rounded MT Bold", 27.75F);
-            this.btn9.Location = new System.Drawing.Point(272, 203);
+            this.btn9.Location = new System.Drawing.Point(286, 203);
             this.btn9.Name = "btn9";
-            this.btn9.Size = new System.Drawing.Size(119, 90);
+            this.btn9.Size = new System.Drawing.Size(117, 90);
             this.btn9.TabIndex = 8;
             this.btn9.UseVisualStyleBackColor = true;
+            this.btn9.Click += new System.EventHandler(this.btn9_Click);
             // 
             // bnt1
             // 
             this.bnt1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bnt1.Location = new System.Drawing.Point(6, 6);
             this.bnt1.Name = "bnt1";
-            this.bnt1.Size = new System.Drawing.Size(124, 88);
+            this.bnt1.Size = new System.Drawing.Size(125, 88);
             this.bnt1.TabIndex = 0;
             this.bnt1.UseVisualStyleBackColor = true;
+            this.bnt1.Click += new System.EventHandler(this.bnt1_Click);
             // 
             // btn7
             // 
             this.btn7.Font = new System.Drawing.Font("Arial Rounded MT Bold", 27.75F);
             this.btn7.Location = new System.Drawing.Point(6, 203);
             this.btn7.Name = "btn7";
-            this.btn7.Size = new System.Drawing.Size(124, 90);
+            this.btn7.Size = new System.Drawing.Size(125, 90);
             this.btn7.TabIndex = 6;
             this.btn7.UseVisualStyleBackColor = true;
+            this.btn7.Click += new System.EventHandler(this.btn7_Click);
             // 
             // btn8
             // 
             this.btn8.Font = new System.Drawing.Font("Arial Rounded MT Bold", 27.75F);
-            this.btn8.Location = new System.Drawing.Point(139, 203);
+            this.btn8.Location = new System.Drawing.Point(146, 203);
             this.btn8.Name = "btn8";
-            this.btn8.Size = new System.Drawing.Size(124, 90);
+            this.btn8.Size = new System.Drawing.Size(125, 90);
             this.btn8.TabIndex = 7;
             this.btn8.UseVisualStyleBackColor = true;
+            this.btn8.Click += new System.EventHandler(this.btn8_Click);
             // 
             // btn5
             // 
             this.btn5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 27.75F);
-            this.btn5.Location = new System.Drawing.Point(139, 103);
+            this.btn5.Location = new System.Drawing.Point(146, 103);
             this.btn5.Name = "btn5";
-            this.btn5.Size = new System.Drawing.Size(124, 91);
+            this.btn5.Size = new System.Drawing.Size(125, 91);
             this.btn5.TabIndex = 4;
             this.btn5.UseVisualStyleBackColor = true;
+            this.btn5.Click += new System.EventHandler(this.btn5_Click);
             // 
             // lblTitle
             // 
